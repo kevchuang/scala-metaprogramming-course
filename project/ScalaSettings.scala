@@ -2,7 +2,6 @@ object ScalaSettings {
   val baseSettings: List[String] = List(
     "-Wunused:explicits",
     "-Wunused:implicits",
-    "-Wunused:imports",
     "-Wunused:locals",
     "-Wunused:nowarn",
     "-Wunused:params",

@@ -2,10 +2,10 @@ import sbt.Keys.*
 import sbt.*
 
 object BuildHelper {
-  val scala3 = "3.3.1"
+  val scala3 = "3.6.3"
 
   def nameSettings: List[Setting[String]] = List(
-    name := "scala3-template",
+    name := "scala-metaprogramming-course",
     organization := "com.kevchuang",
     organizationName := "kevchuang"
   )
